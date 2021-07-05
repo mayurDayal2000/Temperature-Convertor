@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Temperature Convertor Application">
+        <meta name="creator" content="mayur dayal">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/index.css">
+        <script src="js/index.js" defer></script>
+        <title>Temperature Convertor</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Temperature Convertor</h1>
+        </header>
+
+        <main id="root">
+            <div class="container">
+                <form>
+                    <Label for="temp">Enter Temperature:</Label>
+                    <input type="number" name="tempValue" id="temp" placeholder="Enter the temperature" required>
+                    
+                    <select name="degreeValue" id="">
+                        <option value="Cel" >&deg; C</option>
+                        <option value="Faren">&deg; F</option>
+                        <option value="Kelvin">&deg; K</option>
+                    </select>
+    
+                    <button type="submit">Check Temperature</button>
+                </form>
+    
+                <section class="conversion">
+                    <div class="temp-box">
+                        <div class="box1">
+                            <h4><span></span> &deg;C</h4>
+                        </div>
+    
+                        <div class="box2">
+                            <h4><span></span> &deg;F</h4>
+                        </div>
+    
+                        <div class="box3">
+                            <h4><span></span> K</h4>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            
+        </main>
+    </body>
+</html>
